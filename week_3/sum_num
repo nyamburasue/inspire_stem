@@ -1,0 +1,10 @@
+#program to get the sum of 20 numbers
+#name : Susan Maina
+#date :26/02/2024
+
+sum_num = 0
+max_value =int(input("enter the max_value"))
+
+for x in range (0, max_value + 1):
+    sum_num = sum_num + x
+    print (sum_num)
